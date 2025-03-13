@@ -1,0 +1,246 @@
+@font-face {
+    font-family: bebas;
+    src: url(BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: vintage;
+    src: url(Holen\ Vintage.otf);
+}
+@font-face {
+    font-family: lemon;
+    src: url(LEMONMILK-Medium.otf);
+}
+@font-face {
+    font-family: mvintage;
+    src: url(MEDIO\ VINTAGE.otf);
+}
+@font-face {
+    font-family: zec;
+    src: url(Zector.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    color: white;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.39);
+}
+
+body {
+    background: #0D0D0D;
+}
+
+nav {
+    background: #15402800;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    color: #2d704b;
+    box-shadow: 3px 3px 3px 3px#1a1a1aa1;
+}
+
+
+.logo p{
+    font-size: 50px;
+    margin-top: 25px;
+    margin-right: 100px;
+    margin-left: 20px;
+    color: #009643;
+    font-family: vintage;
+}
+
+.navbar{
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+.navbar a{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    font-family: zec;
+} 
+
+.navbar a:hover{
+    background: #2d704b;
+} 
+
+.discord {
+margin-top: 20px;
+margin-right: 10px;
+color: #009643;
+}
+
+.discord a {
+    font-size: 60px;
+    color: #009643;
+}
+
+.discord a:hover{
+    background: #ffffff;
+    border-radius: 20px;
+} 
+
+.principal {
+    margin-top: -2px;   
+    height: 770px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+
+.principal button {
+    color: black;
+
+    
+}
+
+.textohead h1 {
+    text-align: left;
+    margin-left: 300px;
+    font-size: 60px;
+    padding-top: 250px;
+    font-family: vintage;
+    color: #009643;
+}
+
+.textohead h1 strong {
+    color: #00ff73;
+}
+
+
+
+
+.textohead p {
+    text-align: left;
+    margin-left: 280px;
+    margin-top: 5px;
+    margin-bottom: 60px;
+    font-size: 25px;
+    font-family: lemon;
+}
+
+
+.button {   
+    margin-left: 600px ;
+    margin-top: 30px;
+    padding: 20px 50px;
+    border-radius: 20px;
+    background: #00ff73;
+    font-family: lemon;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.passo {
+    width: 50%;
+    text-align: center;
+}
+
+.container {
+    width: 50%;
+    height: 600px;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.passo h2{
+    margin-top: 60px;
+    font-size: 60px;
+    font-family: lemon;
+}
+
+.passo li,p{
+    margin-top: 20px;
+    font-family: bebas;
+    font-size: 30px;
+    margin-left: -3;
+}
+
+.corol li::marker{
+    color: #009643;
+}
+
+.passo p strong{
+    color: #00d861;
+}
+
+.container p {
+    margin-top: 60px;
+    font-size: 60px;    
+}
+
+.container input {
+    padding: 10px ;    
+    color: #009643;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container input::placeholder {    
+    color: #009643;
+    font-family: lemon;
+    text-shadow: none;
+}
+
+.container button {
+    padding: 15px 60px;    
+    color: white;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    background-color: #009643;
+    border: none;
+    cursor: grab;
+}
+
+.container img {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 60px;
+    background: black;
+    text-align: center;
+    height: 150px;
+}
+
+footer input{
+    margin-top: 30px;
+    padding: 20px;
+    width: 500px;
+    border-radius: 30px;
+    font-family: lemon;
+    color: black;
+    text-shadow: none;
+    text-align: center;
+}
+
+footer input::placeholder{
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 30px;
+    font-family: lemon;
+    color: #009643;
+    text-shadow: none;
+}
+
+
+footer p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: initial;
+    margin-bottom: 20px;
+}
+
+

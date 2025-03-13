@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page QrCode</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="qr-scan-regular-24.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <p>QrZemo</p>
+            </div>
+            <div class="discord">
+                <a href="https://discord.gg/veRW8V3j" target="_blank"><i class='bx bxl-discord-alt'></i></a>
+            </div>
+        </nav>
+        <div class="principal">
+            <div class="textohead">
+                <h1>Gerador de QrCode</h1>
+                <p>Lorem ipsum dolor sit <strong>amet consectetur</strong> adipisicing elit. Saepe rerum nihil aut?
+                    <br> Impedit, maxime officia beatae voluptatum adipisci dolor, eum repellat <strong>doloremque
+                        cupiditate</strong> illum dignissimos incidunt, corrupti quae numquam hic. <br>
+                    Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quod..
+                </p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="passo">
+            <h2>Passo a Passo</h2>
+            <ol style="list-style-position: inside;" class="corol">
+                <li>Clicar em Text ou Url</li>
+                <li>Escrever o seu link ou texto</li>
+                <li>Clicar em gerar QrCode</li>
+                <li>Baixar seu QrCode</li>
+            </ol>
+            <p><strong>Prontinho!!!</strong> utilize seu QrCode a vontade</p>
+            <p>Gere quantos <strong>QrCode's</strong> quiser</p>
+        </div>
+        <div class="container">
+            <p>Escreva seu texto ou URL</p>
+            <input type="text" placeholder="Text ou URL" id="qrText" style="color: black;">
+
+            <div id="imgBox">
+                <img src="" id="qrImage">
+            </div>
+            <button onclick="generateQR()">Gerar Qr Code</button>
+
+        </div>
+    </main>
+    <footer>
+        <input type="text" placeholder="Entre em Contato(e-mail)">
+        <p><i>©pedroo.gomesz</i> | criado com html, css e js</p>
+    </footer>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
